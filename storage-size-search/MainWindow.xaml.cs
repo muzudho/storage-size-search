@@ -154,24 +154,40 @@ namespace storage_size_search
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Trace.WriteLine("Info    | Start.");
+            var location = LocationTextBox.Text;
+            Trace.WriteLine($"Info    | Start into [{location}].");
 
             // TODO 別スレッドでストレージを探索。
             var stopwatch = new Stopwatch();
-            foreach (var entry in Directory.EnumerateFileSystemEntries(@"C:\"))
+            foreach (var entry in Directory.EnumerateFileSystemEntries(location))
             {
                 stopwatch.Start();
                 // Trace.WriteLine($"Info    | Search=[{entry}]");
                 var info = new DirectoryInfo(entry);
                 var (size2, timeUp) = GetDirectorySize(info, stopwatch);
 
-                Trace.WriteLine($"Info    | entry=[{entry}] size=[{GetPresentableByteText(size2)}] timeUp=[{timeUp}] milliSeconds=[{GetPresentableMillisecondsText(stopwatch.ElapsedMilliseconds)}]");
+                DisplayInfo(entry, size2, timeUp, stopwatch);
                 stopwatch.Stop();
             }
 
             // TODO ファイル書き出し
 
             Trace.WriteLine("Info    | Finished.");
+        }
+
+        private static void DisplayInfo(string entry, long size, bool timeUp, Stopwatch stopwatch)
+        {
+            var textB = new StringBuilder();
+            textB.Append($" entry=[{entry}]");
+            textB.Append($" size=[{GetPresentableByteText(size)}]");
+
+            if (timeUp)
+            {
+                textB.Append($" Time-up");
+            }
+
+            textB.Append($" time=[{GetPresentableMillisecondsText(stopwatch.ElapsedMilliseconds)}]");
+            Trace.WriteLine($"Info    |{textB.ToString()}");
         }
     }
 }

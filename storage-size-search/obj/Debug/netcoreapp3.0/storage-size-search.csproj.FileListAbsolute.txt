@@ -1,0 +1,17 @@
+C:\Users\むずでょ\source\repos\storage-size-search\storage-size-search\bin\Debug\netcoreapp3.0\storage-size-search.exe
+C:\Users\むずでょ\source\repos\storage-size-search\storage-size-search\bin\Debug\netcoreapp3.0\storage-size-search.deps.json
+C:\Users\むずでょ\source\repos\storage-size-search\storage-size-search\bin\Debug\netcoreapp3.0\storage-size-search.runtimeconfig.json
+C:\Users\むずでょ\source\repos\storage-size-search\storage-size-search\bin\Debug\netcoreapp3.0\storage-size-search.runtimeconfig.dev.json
+C:\Users\むずでょ\source\repos\storage-size-search\storage-size-search\bin\Debug\netcoreapp3.0\storage-size-search.dll
+C:\Users\むずでょ\source\repos\storage-size-search\storage-size-search\bin\Debug\netcoreapp3.0\storage-size-search.pdb
+C:\Users\むずでょ\source\repos\storage-size-search\storage-size-search\obj\Debug\netcoreapp3.0\storage-size-search.csprojAssemblyReference.cache
+C:\Users\むずでょ\source\repos\storage-size-search\storage-size-search\obj\Debug\netcoreapp3.0\MainWindow.g.cs
+C:\Users\むずでょ\source\repos\storage-size-search\storage-size-search\obj\Debug\netcoreapp3.0\App.g.cs
+C:\Users\むずでょ\source\repos\storage-size-search\storage-size-search\obj\Debug\netcoreapp3.0\storage-size-search_MarkupCompile.cache
+C:\Users\むずでょ\source\repos\storage-size-search\storage-size-search\obj\Debug\netcoreapp3.0\storage-size-search_MarkupCompile.lref
+C:\Users\むずでょ\source\repos\storage-size-search\storage-size-search\obj\Debug\netcoreapp3.0\MainWindow.baml
+C:\Users\むずでょ\source\repos\storage-size-search\storage-size-search\obj\Debug\netcoreapp3.0\storage-size-search.g.resources
+C:\Users\むずでょ\source\repos\storage-size-search\storage-size-search\obj\Debug\netcoreapp3.0\storage-size-search.AssemblyInfoInputs.cache
+C:\Users\むずでょ\source\repos\storage-size-search\storage-size-search\obj\Debug\netcoreapp3.0\storage-size-search.AssemblyInfo.cs
+C:\Users\むずでょ\source\repos\storage-size-search\storage-size-search\obj\Debug\netcoreapp3.0\storage-size-search.dll
+C:\Users\むずでょ\source\repos\storage-size-search\storage-size-search\obj\Debug\netcoreapp3.0\storage-size-search.pdb

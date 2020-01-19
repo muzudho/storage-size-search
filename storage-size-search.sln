@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "storage-size-search", "storage-size-search\storage-size-search.csproj", "{BA93499C-5FEB-4D63-86E0-12E02E231C65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA93499C-5FEB-4D63-86E0-12E02E231C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA93499C-5FEB-4D63-86E0-12E02E231C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA93499C-5FEB-4D63-86E0-12E02E231C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA93499C-5FEB-4D63-86E0-12E02E231C65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DC49156-8EA1-4D42-BCAA-340D17B60C9B}
+	EndGlobalSection
+EndGlobal
